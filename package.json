@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "terminate": "node terminate.js",
+    "stop": "node stop.js",
+    "transfer": "node transferBatch.js",
+    "create": "node create.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.141.0",
+    "aws-sdk": "^2.1177.0",
+    "dotenv": "^16.0.1"
+  }
+}
